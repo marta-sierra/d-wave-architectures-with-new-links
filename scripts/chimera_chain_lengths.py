@@ -1,9 +1,9 @@
 import csv
 from concurrent.futures import ProcessPoolExecutor
-from evaluator import Evaluator
+from dwave_links.embedding.evaluator import Evaluator
 from itertools import product
 from multiprocessing import Lock
-from chimeraModification import ChimeraModification
+from dwave_links.topologies.chimera import ChimeraModification
 
 csv_file = 'chimera_orders_data.csv'
 

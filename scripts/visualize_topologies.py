@@ -1,8 +1,8 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-from chimeraModification import ChimeraModification
-from pegasusModification import PegasusModification
-from zephyrModification import ZephyrModification
+from dwave_links.topologies.chimera import ChimeraModification
+from dwave_links.topologies.pegasus import PegasusModification
+from dwave_links.topologies.zephyr import ZephyrModification
 
 # CHIMERA LAYOUT VISUALIZATION
 c = ChimeraModification(6)

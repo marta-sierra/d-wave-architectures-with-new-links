@@ -1,0 +1,7 @@
+networkx
+dwave-networkx
+minorminer
+pyldpc==0.7.8  # 0.7.9 renamed make_ldpc(n_code=...) back to n
+numba  # required by pyldpc but not declared as a dependency
+numpy
+matplotlib

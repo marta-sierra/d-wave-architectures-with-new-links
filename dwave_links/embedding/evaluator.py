@@ -1,5 +1,5 @@
-import generate_regular_ldpc_codes
-from minorminerEmbedder import MinorminerEmbedder
+from dwave_links.embedding import ldpc as generate_regular_ldpc_codes
+from dwave_links.embedding.minorminer_embedder import MinorminerEmbedder
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
